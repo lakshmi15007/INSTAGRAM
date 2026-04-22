@@ -1,0 +1,229 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "lakshimi_priya",
+      "fullName": "Lakshimi Priya",
+      "profilePic": "src/profile 3.jpg",
+      "bio": "Frontend Developer | React ❤️",
+      "followers": 1200,
+      "following": 350
+    },
+    {
+      "id": "2",
+      "username": "senorita_._.22",
+      "fullName": "Aishwariya",
+      "profilePic": "src/profile 6.jpeg",
+      "bio": "Travel | Photography 📸",
+      "followers": 980,
+      "following": 210
+    },
+    {
+      "id": "3",
+      "username": "merry_kitten_07",
+      "fullName": "Merry Kitten",
+      "profilePic": "src/profile1.jpg",
+      "bio": "Web Developer 👩‍💻",
+      "followers": 980,
+      "following": 300
+    },
+    {
+      "id": "4",
+      "username": "Dharshuu_14",
+      "fullName": "Dharshini",
+      "profilePic": "src/profile 5.jpg"
+    },
+    {
+      "id": "5",
+      "username": "Nandhu_06",
+      "fullName": "Nandhini",
+      "profilePic": "src/profile 4.jpeg",
+      "bio": "discovering new places 🌍",
+      "followers": 1180,
+      "following": 700
+    }
+  ],
+  "posts": [
+    {
+      "id": "101",
+      "userId": 1,
+      "image": "src/react.jpeg",
+      "caption": "Learning React day by day 💻🔥",
+      "likes": 340,
+      "comments": [
+        {
+          "id": 1,
+          "user": "senorita_._.22",
+          "text": "Nice work 👏"
+        }
+      ],
+      "createdAt": "2026-01-18T10:30:00"
+    },
+    {
+      "id": "102",
+      "userId": 2,
+      "image": "src/beach.jpg",
+      "caption": "Beach vibes 🌊☀️",
+      "likes": 560,
+      "comments": [],
+      "createdAt": "2026-01-19T15:45:00"
+    },
+    {
+      "id": "103",
+      "userId": 3,
+      "image": "src/Top-10-Projects-For-Beginners-To-Practice-HTML-and-CSS-Skills.jpg",
+      "caption": "HTML + CSS practice 💻",
+      "likes": 310,
+      "comments": [],
+      "createdAt": "2026-01-19T09:15:00"
+    },
+    {
+      "id": "104",
+      "userId": 5,
+      "image": "src/insta clone.jpeg",
+      "caption": "Building Instagram Clone 😍",
+      "likes": 760,
+      "comments": [],
+      "createdAt": "2026-01-20T08:45:00"
+    }
+  ],
+  "stories": [
+    {
+      "userId": 1,
+      "user": {
+        "id": 301,
+        "username": "priya_1513",
+        "profilePic": "src/profile 3.jpg"
+      },
+      "image": "src/story 1.jpg",
+      "createdAt": "2026-01-20T08:00:00",
+      "id": "6749"
+    },
+    {
+      "userId": 2,
+      "user": {
+        "id": 302,
+        "username": "senorita_._.22",
+        "profilePic": "src/profile 6.jpeg"
+      },
+      "image": "src/story 2.jpg",
+      "createdAt": "2026-01-20T07:30:00",
+      "id": "14cd"
+    },
+    {
+      "userId": 3,
+      "user": {
+        "id": 303,
+        "username": "merry_kitten_07",
+        "profilePic": "src/profile1.jpg"
+      },
+      "image": "src/story 3.jpg",
+      "createdAt": "2026-01-20T09:15:00",
+      "id": "f44e"
+    },
+    {
+      "userId": 4,
+      "user": {
+        "id": 304,
+        "username": "Dharshuu_14",
+        "profilePic": "src/profile 5.jpg"
+      },
+      "image": "src/story 4.jpg",
+      "createdAt": "2026-01-20T10:00:00",
+      "id": "7533"
+    },
+    {
+      "userId": 5,
+      "user": {
+        "id": 305,
+        "username": "Nandhu_06",
+        "profilePic": "src/profile 4.jpeg"
+      },
+      "image": "src/story 5.jpg",
+      "createdAt": "2026-01-20T11:00:00",
+      "id": "8bb3"
+    }
+  ],
+  "likes": [
+    {
+      "id": "401",
+      "userId": 2,
+      "postId": 101
+    },
+    {
+      "id": "402",
+      "userId": 3,
+      "postId": 103
+    },
+    {
+      "id": "403",
+      "userId": 1,
+      "postId": 102
+    }
+  ],
+  "comments": [
+    {
+      "id": "501",
+      "postId": 101,
+      "userId": 2,
+      "text": "Amazing 💯",
+      "createdAt": "2026-01-18T11:00:00"
+    },
+    {
+      "id": "502",
+      "postId": 102,
+      "userId": 1,
+      "text": "Amazing view 😍",
+      "createdAt": "2026-01-18T13:10:00"
+    },
+    {
+      "id": "503",
+      "postId": 104,
+      "userId": 3,
+      "text": "Nice clone 🔥",
+      "createdAt": "2026-01-20T09:10:00"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "lakshmi_priya",
+    "fullName": "Lakshim Priya",
+    "profilePic": "src/profile 3.jpg",
+    "bio": "Frontend Developer | React ❤️",
+    "posts": 1,
+    "followers": 1200,
+    "following": 350
+  },
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "priya_1513",
+      "fullName": "Priya",
+      "profilePic": "src/profile 2.jpg"
+    },
+    {
+      "id": "2",
+      "username": "senorita_._.22",
+      "fullName": "Aishwariya",
+      "profilePic": "src/profile 6.jpeg"
+    },
+    {
+      "id": "3",
+      "username": "merry_kitten_07",
+      "fullName": "Merry Kitten",
+      "profilePic": "src/profile1.jpg"
+    },
+    {
+      "id": "4",
+      "username": "Dharshuu_14",
+      "fullName": "Dharshini",
+      "profilePic": "src/profile 5.jpg"
+    },
+    {
+      "id": "5",
+      "username": "Nandhu_06",
+      "fullName": "Nandhini",
+      "profilePic": "src/profile 4.jpeg"
+    }
+  ]
+}
